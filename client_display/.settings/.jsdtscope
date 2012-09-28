@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="node_modules/jade/node_modules/mkdirp/|node_modules/stylus/lib/functions/|node_modules/express/node_modules/connect/node_modules/qs/lib/|node_modules/express/lib/router/|node_modules/stylus/lib/nodes/|node_modules/express/node_modules/connect/lib/middleware/|node_modules/express/node_modules/debug/|node_modules/express/node_modules/crc/lib/|node_modules/express/node_modules/connect/node_modules/formidable/test/fixture/js/|node_modules/stylus/lib/visitor/|node_modules/express/node_modules/commander/|node_modules/express/node_modules/connect/node_modules/formidable/test/integration/|node_modules/express/node_modules/range-parser/|node_modules/express/node_modules/connect/node_modules/formidable/|node_modules/express/node_modules/connect/node_modules/formidable/test/legacy/simple/|node_modules/stylus/node_modules/cssom/lib/|node_modules/express/node_modules/mkdirp/|node_modules/express/lib/|node_modules/express/node_modules/connect/node_modules/formidable/example/|node_modules/express/node_modules/send/|routes/|node_modules/express/node_modules/fresh/|node_modules/express/node_modules/connect/node_modules/formidable/tool/|node_modules/express/node_modules/connect/node_modules/formidable/test/unit/|node_modules/express/node_modules/connect/node_modules/formidable/test/legacy/system/|node_modules/stylus/lib/convert/|node_modules/express/node_modules/connect/node_modules/formidable/node-gently/example/|node_modules/jade/|node_modules/express/node_modules/mkdirp/test/|node_modules/express/node_modules/cookie/test/|node_modules/stylus/node_modules/mkdirp/examples/|node_modules/stylus/testing/|node_modules/jade/lib/nodes/|node_modules/stylus/node_modules/debug/lib/|node_modules/express/node_modules/connect/node_modules/formidable/test/|node_modules/express/node_modules/connect/node_modules/formidable/test/legacy/|node_modules/express/node_modules/connect/node_modules/pause/|node_modules/express/node_modules/connect/node_modules/qs/|node_modules/express/node_modules/send/node_modules/mime/|node_modules/stylus/lib/|node_modules/express/node_modules/crc/test/|node_modules/express/node_modules/debug/example/|node_modules/express/node_modules/connect/lib/middleware/session/|node_modules/stylus/|node_modules/jade/node_modules/commander/lib/|node_modules/stylus/node_modules/mkdirp/test/|node_modules/stylus/lib/stack/|node_modules/express/node_modules/send/lib/|node_modules/express/node_modules/connect/node_modules/bytes/|node_modules/jade/lib/|node_modules/express/node_modules/connect/node_modules/formidable/node-gently/test/|node_modules/stylus/node_modules/mkdirp/|node_modules/express/node_modules/connect/node_modules/formidable/node-gently/|node_modules/express/node_modules/debug/lib/|node_modules/express/node_modules/connect/node_modules/qs/test/|node_modules/express/node_modules/commander/lib/|node_modules/express/node_modules/connect/|node_modules/jade/node_modules/mkdirp/test/|node_modules/express/node_modules/connect/node_modules/formidable/test/fixture/|node_modules/jade/node_modules/commander/|node_modules/express/node_modules/connect/node_modules/formidable/benchmark/|node_modules/express/node_modules/connect/lib/|node_modules/express/node_modules/connect/node_modules/formidable/lib/|node_modules/express/node_modules/cookie/|node_modules/jade/node_modules/mkdirp/examples/|node_modules/express/node_modules/connect/node_modules/formidable/node-gently/test/simple/|node_modules/express/|node_modules/stylus/node_modules/debug/|node_modules/express/node_modules/connect/node_modules/formidable/node-gently/lib/gently/|node_modules/express/node_modules/methods/|node_modules/jade/testing/|node_modules/stylus/node_modules/debug/example/|node_modules/express/node_modules/mkdirp/examples/|node_modules/express/node_modules/connect/node_modules/formidable/test/legacy/integration/" kind="src" path="presdex-display"/>
+	<classpathentry excluding="node_modules/connect/node_modules/qs/lib/|lib/router/|node_modules/connect/lib/middleware/|node_modules/debug/|node_modules/crc/lib/|node_modules/connect/node_modules/formidable/test/fixture/js/|node_modules/commander/|node_modules/connect/node_modules/formidable/test/integration/|node_modules/range-parser/|node_modules/connect/node_modules/formidable/|node_modules/connect/node_modules/formidable/test/legacy/simple/|node_modules/mkdirp/|lib/|node_modules/connect/node_modules/formidable/example/|node_modules/send/|node_modules/fresh/|node_modules/connect/node_modules/formidable/tool/|node_modules/connect/node_modules/formidable/test/unit/|node_modules/connect/node_modules/formidable/test/legacy/system/|node_modules/connect/node_modules/formidable/node-gently/example/|node_modules/mkdirp/test/|node_modules/cookie/test/|node_modules/connect/node_modules/formidable/test/|node_modules/connect/node_modules/formidable/test/legacy/|node_modules/connect/node_modules/pause/|node_modules/connect/node_modules/qs/|node_modules/send/node_modules/mime/|node_modules/crc/test/|node_modules/debug/example/|node_modules/connect/lib/middleware/session/|node_modules/send/lib/|node_modules/connect/node_modules/bytes/|node_modules/connect/node_modules/formidable/node-gently/test/|node_modules/connect/node_modules/formidable/node-gently/|node_modules/debug/lib/|node_modules/connect/node_modules/qs/test/|node_modules/commander/lib/|node_modules/connect/|node_modules/connect/node_modules/formidable/test/fixture/|node_modules/connect/node_modules/formidable/benchmark/|node_modules/connect/lib/|node_modules/connect/node_modules/formidable/lib/|node_modules/cookie/|node_modules/connect/node_modules/formidable/node-gently/test/simple/|node_modules/connect/node_modules/formidable/node-gently/lib/gently/|node_modules/methods/|node_modules/mkdirp/examples/|node_modules/connect/node_modules/formidable/test/legacy/integration/" kind="src" path="presdex-display/node_modules/express"/>
+	<classpathentry excluding="router/" kind="src" path="presdex-display/node_modules/express/lib"/>
+	<classpathentry kind="src" path="presdex-display/node_modules/express/lib/router"/>
+	<classpathentry excluding="lib/" kind="src" path="presdex-display/node_modules/express/node_modules/commander"/>
+	<classpathentry kind="src" path="presdex-display/node_modules/express/node_modules/commander/lib"/>
+	<classpathentry excluding="node_modules/qs/lib/|lib/middleware/|node_modules/formidable/test/fixture/js/|node_modules/formidable/test/integration/|node_modules/formidable/|node_modules/formidable/test/legacy/simple/|node_modules/formidable/example/|node_modules/formidable/tool/|node_modules/formidable/test/unit/|node_modules/formidable/test/legacy/system/|node_modules/formidable/node-gently/example/|node_modules/formidable/test/|node_modules/formidable/test/legacy/|node_modules/pause/|node_modules/qs/|lib/middleware/session/|node_modules/bytes/|node_modules/formidable/node-gently/test/|node_modules/formidable/node-gently/|node_modules/qs/test/|node_modules/formidable/test/fixture/|node_modules/formidable/benchmark/|lib/|node_modules/formidable/lib/|node_modules/formidable/node-gently/test/simple/|node_modules/formidable/node-gently/lib/gently/|node_modules/formidable/test/legacy/integration/" kind="src" path="presdex-display/node_modules/express/node_modules/connect"/>
+	<classpathentry excluding="middleware/|middleware/session/" kind="src" path="presdex-display/node_modules/express/node_modules/connect/lib"/>
+	<classpathentry excluding="session/" kind="src" path="presdex-display/node_modules/express/node_modules/connect/lib/middleware"/>
+	<classpathentry kind="src" path="presdex-display/node_modules/express/node_modules/connect/lib/middleware/session"/>
+	<classpathentry kind="src" path="presdex-display/node_modules/express/node_modules/connect/node_modules/bytes"/>
+	<classpathentry excluding="test/fixture/js/|test/integration/|test/legacy/simple/|example/|tool/|test/unit/|test/legacy/system/|node-gently/example/|test/|test/legacy/|node-gently/test/|node-gently/|test/fixture/|benchmark/|lib/|node-gently/test/simple/|node-gently/lib/gently/|test/legacy/integration/" kind="src" path="presdex-display/node_modules/express/node_modules/connect/node_modules/formidable"/>
+	<classpathentry kind="src" path="presdex-display/node_modules/express/node_modules/connect/node_modules/formidable/benchmark"/>
+	<classpathentry kind="src" path="presdex-display/node_modules/express/node_modules/connect/node_modules/formidable/example"/>
+	<classpathentry kind="src" path="presdex-display/node_modules/express/node_modules/connect/node_modules/formidable/lib"/>
+	<classpathentry excluding="example/|test/|test/simple/|lib/gently/" kind="src" path="presdex-display/node_modules/express/node_modules/connect/node_modules/formidable/node-gently"/>
+	<classpathentry kind="src" path="presdex-display/node_modules/express/node_modules/connect/node_modules/formidable/node-gently/example"/>
+	<classpathentry kind="src" path="presdex-display/node_modules/express/node_modules/connect/node_modules/formidable/node-gently/lib/gently"/>
+	<classpathentry excluding="simple/" kind="src" path="presdex-display/node_modules/express/node_modules/connect/node_modules/formidable/node-gently/test"/>
+	<classpathentry kind="src" path="presdex-display/node_modules/express/node_modules/connect/node_modules/formidable/node-gently/test/simple"/>
+	<classpathentry excluding="fixture/js/|integration/|legacy/simple/|unit/|legacy/system/|legacy/|fixture/|legacy/integration/" kind="src" path="presdex-display/node_modules/express/node_modules/connect/node_modules/formidable/test"/>
+	<classpathentry excluding="js/" kind="src" path="presdex-display/node_modules/express/node_modules/connect/node_modules/formidable/test/fixture"/>
+	<classpathentry kind="src" path="presdex-display/node_modules/express/node_modules/connect/node_modules/formidable/test/fixture/js"/>
+	<classpathentry kind="src" path="presdex-display/node_modules/express/node_modules/connect/node_modules/formidable/test/integration"/>
+	<classpathentry excluding="simple/|system/|integration/" kind="src" path="presdex-display/node_modules/express/node_modules/connect/node_modules/formidable/test/legacy"/>
+	<classpathentry kind="src" path="presdex-display/node_modules/express/node_modules/connect/node_modules/formidable/test/legacy/integration"/>
+	<classpathentry kind="src" path="presdex-display/node_modules/express/node_modules/connect/node_modules/formidable/test/legacy/simple"/>
+	<classpathentry kind="src" path="presdex-display/node_modules/express/node_modules/connect/node_modules/formidable/test/legacy/system"/>
+	<classpathentry kind="src" path="presdex-display/node_modules/express/node_modules/connect/node_modules/formidable/test/unit"/>
+	<classpathentry kind="src" path="presdex-display/node_modules/express/node_modules/connect/node_modules/formidable/tool"/>
+	<classpathentry kind="src" path="presdex-display/node_modules/express/node_modules/connect/node_modules/pause"/>
+	<classpathentry excluding="lib/|test/" kind="src" path="presdex-display/node_modules/express/node_modules/connect/node_modules/qs"/>
+	<classpathentry kind="src" path="presdex-display/node_modules/express/node_modules/connect/node_modules/qs/lib"/>
+	<classpathentry kind="src" path="presdex-display/node_modules/express/node_modules/connect/node_modules/qs/test"/>
+	<classpathentry excluding="test/" kind="src" path="presdex-display/node_modules/express/node_modules/cookie"/>
+	<classpathentry kind="src" path="presdex-display/node_modules/express/node_modules/cookie/test"/>
+	<classpathentry kind="src" path="presdex-display/node_modules/express/node_modules/crc/lib"/>
+	<classpathentry kind="src" path="presdex-display/node_modules/express/node_modules/crc/test"/>
+	<classpathentry excluding="example/|lib/" kind="src" path="presdex-display/node_modules/express/node_modules/debug"/>
+	<classpathentry kind="src" path="presdex-display/node_modules/express/node_modules/debug/example"/>
+	<classpathentry kind="src" path="presdex-display/node_modules/express/node_modules/debug/lib"/>
+	<classpathentry kind="src" path="presdex-display/node_modules/express/node_modules/fresh"/>
+	<classpathentry kind="src" path="presdex-display/node_modules/express/node_modules/methods"/>
+	<classpathentry excluding="test/|examples/" kind="src" path="presdex-display/node_modules/express/node_modules/mkdirp"/>
+	<classpathentry kind="src" path="presdex-display/node_modules/express/node_modules/mkdirp/examples"/>
+	<classpathentry kind="src" path="presdex-display/node_modules/express/node_modules/mkdirp/test"/>
+	<classpathentry kind="src" path="presdex-display/node_modules/express/node_modules/range-parser"/>
+	<classpathentry excluding="node_modules/mime/|lib/" kind="src" path="presdex-display/node_modules/express/node_modules/send"/>
+	<classpathentry kind="src" path="presdex-display/node_modules/express/node_modules/send/lib"/>
+	<classpathentry kind="src" path="presdex-display/node_modules/express/node_modules/send/node_modules/mime"/>
+	<classpathentry excluding="node_modules/mkdirp/|lib/nodes/|node_modules/commander/lib/|lib/|node_modules/mkdirp/test/|node_modules/commander/|node_modules/mkdirp/examples/|testing/" kind="src" path="presdex-display/node_modules/jade"/>
+	<classpathentry excluding="nodes/" kind="src" path="presdex-display/node_modules/jade/lib"/>
+	<classpathentry kind="src" path="presdex-display/node_modules/jade/lib/nodes"/>
+	<classpathentry excluding="lib/" kind="src" path="presdex-display/node_modules/jade/node_modules/commander"/>
+	<classpathentry kind="src" path="presdex-display/node_modules/jade/node_modules/commander/lib"/>
+	<classpathentry excluding="test/|examples/" kind="src" path="presdex-display/node_modules/jade/node_modules/mkdirp"/>
+	<classpathentry kind="src" path="presdex-display/node_modules/jade/node_modules/mkdirp/examples"/>
+	<classpathentry kind="src" path="presdex-display/node_modules/jade/node_modules/mkdirp/test"/>
+	<classpathentry kind="src" path="presdex-display/node_modules/jade/testing"/>
+	<classpathentry excluding="lib/functions/|lib/nodes/|lib/visitor/|node_modules/cssom/lib/|lib/convert/|node_modules/mkdirp/examples/|testing/|node_modules/debug/lib/|lib/|node_modules/mkdirp/test/|lib/stack/|node_modules/mkdirp/|node_modules/debug/|node_modules/debug/example/" kind="src" path="presdex-display/node_modules/stylus"/>
+	<classpathentry excluding="functions/|nodes/|visitor/|convert/|stack/" kind="src" path="presdex-display/node_modules/stylus/lib"/>
+	<classpathentry kind="src" path="presdex-display/node_modules/stylus/lib/convert"/>
+	<classpathentry kind="src" path="presdex-display/node_modules/stylus/lib/functions"/>
+	<classpathentry kind="src" path="presdex-display/node_modules/stylus/lib/nodes"/>
+	<classpathentry kind="src" path="presdex-display/node_modules/stylus/lib/stack"/>
+	<classpathentry kind="src" path="presdex-display/node_modules/stylus/lib/visitor"/>
+	<classpathentry kind="src" path="presdex-display/node_modules/stylus/node_modules/cssom/lib"/>
+	<classpathentry excluding="lib/|example/" kind="src" path="presdex-display/node_modules/stylus/node_modules/debug"/>
+	<classpathentry kind="src" path="presdex-display/node_modules/stylus/node_modules/debug/example"/>
+	<classpathentry kind="src" path="presdex-display/node_modules/stylus/node_modules/debug/lib"/>
+	<classpathentry excluding="examples/|test/" kind="src" path="presdex-display/node_modules/stylus/node_modules/mkdirp"/>
+	<classpathentry kind="src" path="presdex-display/node_modules/stylus/node_modules/mkdirp/examples"/>
+	<classpathentry kind="src" path="presdex-display/node_modules/stylus/node_modules/mkdirp/test"/>
+	<classpathentry kind="src" path="presdex-display/node_modules/stylus/testing"/>
+	<classpathentry kind="src" path="presdex-display/routes"/>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path=""/>
+</classpath>

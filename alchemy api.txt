@@ -1,0 +1,7 @@
+8bfa2ba33e6644c9a1c0222e1f0dff161b62adc9
+
+http://www.alchemyapi.com/api/
+
+Software developers kits (SDKs) for over a half-dozen programming languages are available for download at:
+
+http://www.alchemyapi.com/tools/

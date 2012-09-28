@@ -1,0 +1,11 @@
+presdex
+
+search twitter for mentions of popular tweets of presidential names
+
+run mentions through alchemy api to decide if good or bad
+
+tally results 
+
+circles of pic of president
+
+show recent popular tweets and two graphs displaying 

@@ -1,0 +1,57 @@
+info it worked if it ends with ok
+verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+verbose cli   'install',
+verbose cli   'bower',
+verbose cli   '-g' ]
+info using npm@1.1.0-3
+info using node@v0.6.10
+verbose config file C:\Users\johngills\.npmrc
+verbose config file C:\Program Files (x86)\nodejs\etc\npmrc
+verbose config file C:\Program Files (x86)\nodejs\node_modules\npm\npmrc
+verbose mkdir done: C:\Users\johngills\AppData\Roaming\npm 755
+verbose cache add [ 'bower', null ]
+silly cache add: name, spec, args [ undefined, 'bower', [ 'bower', null ] ]
+verbose parsed url { pathname: 'bower', path: 'bower', href: 'bower' }
+verbose addNamed [ 'bower', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'bower', '', false ]
+verbose raw, before any munging bower
+verbose url resolving [ 'https://registry.npmjs.org/', './bower' ]
+verbose url resolved https://registry.npmjs.org/bower
+http GET https://registry.npmjs.org/bower
+http 200 https://registry.npmjs.org/bower
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"7LC7XLBDUYM2CIIGKSYMK8ZCA"',
+silly get cb     date: 'Tue, 11 Sep 2012 12:15:17 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '17970' } ]
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\johngills\AppData\Roaming\npm-cache\bower'
+verbose mkdir done: C:\Users\johngills\AppData\Roaming\npm-cache\bower 755
+silly name, range, hasData 2 [ 'bower', '', true ]
+silly versions [ 'bower', [] ]
+ERR! Error: No compatible version found: bower
+ERR! No valid targets found.
+ERR! Perhaps not compatible with your version of node?
+ERR!     at installTargetsError (C:\Program Files (x86)\nodejs\node_modules\npm\lib\cache.js:488:10)
+ERR!     at next_ (C:\Program Files (x86)\nodejs\node_modules\npm\lib\cache.js:438:17)
+ERR!     at next (C:\Program Files (x86)\nodejs\node_modules\npm\lib\cache.js:415:44)
+ERR!     at C:\Program Files (x86)\nodejs\node_modules\npm\lib\cache.js:408:5
+ERR!     at saved (C:\Program Files (x86)\nodejs\node_modules\npm\lib\utils\npm-registry-client\get.js:147:7)
+ERR!     at Object.oncomplete (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\graceful-fs\graceful-fs.js:231:7)
+ERR! You may report this log at:
+ERR!     <http://github.com/isaacs/npm/issues>
+ERR! or email it to:
+ERR!     <npm-@googlegroups.com>
+ERR! 
+ERR! System Windows_NT 6.1.7601
+ERR! command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "bower" "-g"
+ERR! cwd C:\Users\johngills\presdex\test
+ERR! node -v v0.6.10
+ERR! npm -v 1.1.0-3
+ERR! message No compatible version found: bower
+ERR! message No valid targets found.
+ERR! message Perhaps not compatible with your version of node?
+verbose exit [ 1, true ]
