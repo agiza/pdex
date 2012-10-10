@@ -1,0 +1,34 @@
+@CHARSET "ISO-8859-1";
+
+.tops img {
+	display: block;
+	margin: 2px auto;
+}
+div.avatar {
+	width:125px;
+	height:125px;
+	border-radius:63px;
+	opacity: 1.0;
+	font-size:50px;
+	color:#fff;
+	line-height:130px;
+	text-align:center;
+}
+div.avatar:hover {
+	opacity: 0.8;
+}
+img.avatar {
+	position: relative;
+	display: block;
+	margin: -117px 13px 13px 13px;
+
+}
+div.avatar:hover img.avatar {
+	display: none;
+}
+div#cti_1 {
+	background:#ed3c23;
+}
+div#cti_2 {
+	background:#5584af;
+}

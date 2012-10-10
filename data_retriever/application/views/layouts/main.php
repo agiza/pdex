@@ -1,4 +1,12 @@
-<?php 
-      echo $content_for_layout;
+<?php
+	
+    $this->load->view('header');
+	
 ?>
 
+{content}
+
+<?php
+	
+	$this->load->view('footer');
+?>

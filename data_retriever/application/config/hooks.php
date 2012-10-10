@@ -14,3 +14,10 @@
 
 /* End of file hooks.php */
 /* Location: ./application/config/hooks.php */
+
+$hook['display_override'] = array(
+    'class' => 'Layout',
+    'function' => 'index',
+    'filename' => 'Layout.php',
+    'filepath' => 'hooks'
+    );
