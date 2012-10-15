@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/dex.css">
     <link rel="stylesheet" href="/css/bootstrap-responsive.min.css">
+      <script src="js/jquery-1.8.2.js"></script>
 </head>
 <body>
     <div id="container" class="container-fluid">

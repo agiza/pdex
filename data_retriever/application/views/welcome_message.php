@@ -9,12 +9,14 @@
     <div class="row-fluid">
 
       <div class="span6">
-      	<div class="circle avatar" id="cti_1">12
-	      	<img src="/chart_img/cti_1.png" class="img-circle avatar" id="cti_1" />
-      	</div> 
-      	<div class="circle avatar" id="cti_2">23
-	      	<img src="/chart_img/cti_3.png" class="img-circle avatar" id="cit_2" />
-	    </div>
+      	<div id="racers">
+          	<div class="circle avatar" id="cti_1"><span>12</span>
+    	      	<img src="/chart_img/cti_1.png" class="img-circle avatar" id="cti_1" />
+          	</div> 
+          	<div class="circle avatar" id="cti_2"><span>23</span>
+    	      	<img src="/chart_img/cti_3.png" class="img-circle avatar" id="cit_2" />
+    	    </div>
+   	    </div>
       
       </div>
       <div class="span6 tweetBox">Level 2
@@ -24,3 +26,14 @@
   </div>
 
 </div>
+
+<script type="text/javascript">
+
+$(document).ready(function() {
+    $('div.cti_1').animate({    
+    	    left: '50'
+    	  }, 5000, function() {
+    	    // Animation complete.
+    	  });
+});
+</script>
