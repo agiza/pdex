@@ -8,27 +8,55 @@ div.avatar {
 	width:125px;
 	height:125px;
 	border-radius:63px;
-	opacity: 1.0;
 	font-size:50px;
 	color:#fff;
 	line-height:130px;
 	text-align:center;
 }
-div.avatar:hover {
-	opacity: 0.8;
-}
-img.avatar {
+img.pic {
 	position: relative;
 	display: block;
 	margin: -117px 13px 13px 13px;
 
 }
-div.avatar:hover img.avatar {
+div.avatar:hover img.pic {
 	display: none;
 }
-div#cti_1 {
+div.racer {
+	margin-top: 60px;
+}
+div.racer .bar {
+	width:50px;
+	height:16px;
+	margin-top: -69px;
+}
+div.racer .stats {
+	display: none;
+}
+div.racer .circle {
+	z-index: 200;
+}
+div.racer .red {
 	background:#ed3c23;
 }
-div#cti_2 {
+div.racer .blue{
 	background:#5584af;
 }
+	
+div.triangle-right {
+	float:left;
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 16px solid white;
+}
+span.compareTerm {
+	color: white;
+	line-height: 15pt;
+	margin: 0 0 0 4px;
+	position: relative;
+	top: -2px;
+	font-weight: bold;
+}
+	

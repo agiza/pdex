@@ -2,15 +2,14 @@
 
 class Search extends CI_Controller {
 
+    public $layout = 'default';
     
     public function index()
     {
         
-        $this->load->library(array('layout','twitter_handler','sentiment'));
+        $this->load->library(array('twitter_handler'));
         
         $tweets = $this->twitter_handler->searchLoop();
-        
-        $this->layout->view('search', array('tweets' => $tweets));
         
     }
     

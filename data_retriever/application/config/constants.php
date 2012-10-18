@@ -39,3 +39,8 @@ define('FOPEN_READ_WRITE_CREATE_STRICT',		'x+b');
 
 /* End of file constants.php */
 /* Location: ./application/config/constants.php */
+
+/* Application specific custom constants */
+define('SCORE_POS_WEIGHT',        2);
+define('SCORE_NEG_WEIGHT',        -1);
+define('SCORE_NTL_WEIGHT',        1);

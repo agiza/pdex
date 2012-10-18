@@ -1,6 +1,6 @@
 <?php
 
-class MY_Model extends CI_Model {
+class Test_Model extends CI_Model {
 	
 	private static $modelAliasCache = array();
 	

@@ -149,6 +149,8 @@ class REST
 
         // Call the correct method with parameters
         $this->_ci->curl->{$method}($params);
+        
+
 
         // Execute and return the response from the REST server
         $response = $this->_ci->curl->execute();
