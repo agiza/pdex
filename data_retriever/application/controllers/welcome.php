@@ -19,7 +19,7 @@ class Welcome extends CI_Controller {
 					'terms' => $terms,
 					'jsonTerms' => $jsonTerms
 				
-				));
+				)); 
 	}
 }
 
