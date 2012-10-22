@@ -18,7 +18,13 @@ class Compare_term_model extends MY_Model {
             "ct_score"
         );
 
-	
+    public function get_ordered($field,$order='desc') {
+    	$this->db->select()
+    	->order_by($field,$order);
+    	return $this->db->get($this->table)->result_array();
+    
+    
+    }
 }
 
 ?>

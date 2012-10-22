@@ -2,7 +2,7 @@
 /**
  * CodeIgniter REST Class
  *
- * Make REST requests to RESTful services with simple syntax.
+ * Mske REST requests to RESTful services with simple syntax.
  *
  * @package        	CodeIgniter
  * @subpackage    	Libraries
@@ -47,8 +47,7 @@ class REST
 
     function __construct($config = array())
     {
-    	
-    	$this->_ci =& get_instance();
+        $this->_ci =& get_instance();
         log_message('debug', 'REST Class Initialized');
 
 		/* Not using Sparks? You bloody well should be.
@@ -58,7 +57,7 @@ class REST
 		*/
 		
 		// Load the cURL spark which this is dependant on
-		$this->_ci->load->spark('curl/1.2.1');
+		$this->_ci->load->spark('curl/1.2.0');
 
 		// If a URL was passed to the library
 		empty($config) OR $this->initialize($config);
@@ -71,14 +70,13 @@ class REST
 
     public function initialize($config)
     {
-     	
 		$this->rest_server = @$config['server'];
 
 		if (substr($this->rest_server, -1, 1) != '/')
 		{
 			$this->rest_server .= '/';
 		}
-		
+
 		isset($config['http_auth']) && $this->http_auth = $config['http_auth'];
 		isset($config['http_user']) && $this->http_user = $config['http_user'];
 		isset($config['http_pass']) && $this->http_pass = $config['http_pass'];
@@ -86,7 +84,7 @@ class REST
 
 
     public function get($uri, $params = array(), $format = NULL)
-    {  	
+    {
         if ($params)
         {
         	$uri .= '?'.(is_array($params) ? http_build_query($params) : $params);
@@ -151,8 +149,6 @@ class REST
 
         // Call the correct method with parameters
         $this->_ci->curl->{$method}($params);
-        
-
 
         // Execute and return the response from the REST server
         $response = $this->_ci->curl->execute();
@@ -259,10 +255,10 @@ class REST
 		// Find out what format the data was returned in
 		$returned_mime = @$this->_ci->curl->info['content_type'];
 
-		// If they sent through more than just mime, strip it off
+		// If they sent through more than just mime, stip it off
 		if (strpos($returned_mime, ';'))
 		{
-			list($returned_mime) = explode(';', $returned_mime);
+			list($returned_mime)=explode(';', $returned_mime);
 		}
 
 		$returned_mime = trim($returned_mime);
@@ -296,7 +292,7 @@ class REST
 			// The substr removes " from start and end
 			$data_fields = explode('","', trim(substr($row, 1, -1)));
 
-			if (count($data_fields) === count($headings))
+			if (count($data_fields) == count($headings))
 			{
 				$data[] = array_combine($headings, $data_fields);
 			}

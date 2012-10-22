@@ -10,6 +10,7 @@ class Search extends CI_Controller {
         $this->load->library(array('twitter_handler'));
         
         $tweets = $this->twitter_handler->searchLoop();
+
         
     }
     

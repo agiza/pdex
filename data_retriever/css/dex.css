@@ -20,7 +20,11 @@ img.pic {
 
 }
 div.avatar:hover img.pic {
-	display: none;
+	/* display: none; */
+}
+
+div.racers {
+	margin-bottom: 60px;
 }
 div.racer {
 	margin-top: 60px;
@@ -60,19 +64,36 @@ span.compareTerm {
 	font-weight: bold;
 }
 
-div.tweetBox #feeds{
-  width:1000px;
-  margin-left:200px;
-  margin-right:auto;
-  margin-top:40px;
-  border-top:#333 dashed 1px;
+
+#tw li.positive {
+	background: #e5ff80;	
 }
-div.tweetBox .item{
-   margin:0;
-   width:980px;
-   height:80px;
-   font-size:30px;
-   border-bottom:#333 dashed 1px;
-   padding:0px 10px 0px 10px;
+#tw li.neutral {
+	background: #fff;	
+}
+#tw li.negative {
+	background: #FFD5D5;	
+}
+
+.tweetContainer {
+    height: 28.5em; /* total visible tweets, in this case set to 5 */
+    overflow: hidden; /*keep tweets outside of the container from being seen */
+}
+#tw {
+    position: relative;
+    list-style-type: none;
+    top: -6em; /* allows a tweet to be moved into hidden space before scrolling into view */
+    margin: 0px;
+    padding: 0px;
+}
+.tweetImage {
+    float: left;
+    padding-right: 1em;
+}
+.tweet {
+    height: 6em;
+    padding-top: 0.3em;
+    font-size: 0.9em;
+    border-bottom: 1px solid #333333;
 }
 	

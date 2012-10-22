@@ -65,7 +65,7 @@ class Spark_utils {
                     }
                     else
                     {
-                        if ($vocally) self::notice("Removing $dir/$object");                        
+                        if ($vocally) self::notice("Removing $dir/$object");
                         unlink($dir . '/' . $object);
                     }
                 }
